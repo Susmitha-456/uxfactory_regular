@@ -1,0 +1,120 @@
+.t{
+    font-size: xx-small;
+    position: absolute;
+    float: left 30px;
+    margin-left: 90px;
+}
+.nav {
+    list-style-type: none;
+    padding: 10px;
+    margin-left:120px;
+}
+.nav li {
+    display: inline;
+    padding:20px;
+}
+.nav li a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: red;
+}
+#name {
+    color:crimson ;
+    font-size: 25px;
+    font-weight: bold;
+    float: left 50px;
+}
+.nav-center {
+    position: absolute;
+    float:left 100px;
+}
+.d-inline {
+    display: inline;
+    padding-left:700px;
+}
+button{
+    background-color: orangered;
+}
+.mainbox{
+    width: 1200px;
+    height: 400px;
+    background-color:whitesmoke;
+    margin:auto;  
+}  
+.box-parent{
+    position: relative;
+    top:20px;
+    width:1000px;
+    height:70px;
+    background-color: yellowgreen;
+    margin: auto;
+}
+.box1,.box2,.box3{
+    position:relative;
+    top:10px;
+    width:250px;
+    height:20px;
+    background-color: whitesmoke;
+    margin:10px;
+    border-radius: 8px;
+}
+.para1,.para2,.para3{
+    width: 50%;
+    margin: left;
+}
+.icon1{
+    color: white;
+}
+.icon2{
+    margin-left:50px;
+}
+.icon3{
+    margin-left:50px;
+}
+.box4{
+    position: relative;
+    top:10px;
+    width:100px;
+    height:10px;
+    background-color: blue;
+    margin:10px;
+    left:100px;
+}
+.box2,.box3{
+    left:50px;
+}
+.box1{
+    left:20px;
+}
+
+.container{
+    margin-left: 150px;
+    color:darkblue;
+    
+}
+.a{
+    border-collapse: separate;
+    border-spacing: 0 30px ;
+}
+
+.banner{
+    border-style: dotted;
+    width:500px;
+    margin: auto;
+}
+h3, .p1{
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    left: 20%;
+}
+.b image{
+    width: 125px;
+    height: 125px;
+     
+}
+

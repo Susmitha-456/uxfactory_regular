@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>order page</title>
+        <style>
+            table,th,td,caption
+            {
+            border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <caption>Pizza Shop 2.O</caption>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td> Name</td>
+                   <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Pizza Topping</td> 
+                    <td>
+                        <input type="radio"name="Supreme">
+                        <label>Supreme</label><br>
+                        <input type="radio"name="Vegetarian">
+                        <label>Vegetarian</label><br>
+                        <input type="radio"name="Hawalian">
+                        <label>Hawalian</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td><select>
+                        <option value="Tomato">Tomato</option>
+                        <option value="Chilly">Chilly</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <input type="checkbox" name="Extra Cheese">
+                        <label>Extra Cheese</label>
+                        <input type="checkbox" name="Gluten Free Base">
+                        <label>Gluten Free Base</label>
+
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="2">Delivery instructios:<br>
+                    <textarea></textarea></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr> 
+                    <td> <input type="button" value="Send my Order"></td>
+                </tr>
+                </tfoot>
+        </table>
+    </body>
+</html>

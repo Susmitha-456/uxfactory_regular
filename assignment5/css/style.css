@@ -1,0 +1,15 @@
+.one{
+    position:absolute; left:500px;top:20px;
+}
+.two{
+    margin-left: 40px;
+}
+select{
+    background-color:blue;color: white;
+}
+.three{
+    background-color: white; color:blue;
+}
+button{
+  float: left;
+}

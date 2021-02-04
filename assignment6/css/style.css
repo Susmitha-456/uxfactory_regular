@@ -1,0 +1,44 @@
+body{
+    position: absolute;
+    left: 25%;
+}
+h3{
+    text-align: center;
+    color:tomato;
+}
+.nav{
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:black;
+    
+}
+.nav :hover{
+   color:red;
+}
+li a{
+    text-decoration: none;
+    color:black;
+
+}
+li{
+   float: left;    
+   padding:10px;
+   padding-right:  20px;
+
+}
+.para1{
+    width:250px;
+    height:250px;
+    box-sizing: border-box;
+
+}
+.para2{
+    width:250px;
+    height:250px;
+
+}
+#myBtn {
+    background-color: red;
+    color: white;
+}

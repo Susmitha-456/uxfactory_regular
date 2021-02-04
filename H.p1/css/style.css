@@ -1,0 +1,26 @@
+
+#para1
+{
+     color: red;
+
+}
+.para2
+{
+    color:rgb(255, 0, 106);
+}
+div p{
+    background-color: violet;
+}
+div > p{
+    background-color: rgb(197, 238, 130);
+}
+   div + p2 {
+    background-color: yellow;
+
+}
+  
+div ~ p3
+{
+    background-color: tomato;
+}
+
