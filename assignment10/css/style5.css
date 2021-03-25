@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+}
+.column{
+    width:17%;
+}
+#one{
+    background-color:green;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: yellow;
+}
+#four{
+    background-color: green;
+}
+.center{
+    text-align: center;
+}
+.enter{
+    text-align: center;
+}
+.footer{
+    width:75%;
+    color:orangered;
+}

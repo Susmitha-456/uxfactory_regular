@@ -1,0 +1,34 @@
+h1{
+    color:cyan;
+}
+body{
+    background-color: whitesmoke;
+}
+b{
+    color:blue;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+article{
+    color:black;
+}
+ul{
+    list-style-type:none;
+    
+}
+.name{
+    background-color: brown;
+}
+.name li{
+    display: inline;
+    padding:20px;
+    font-size: 20px;
+}
+.name li a{
+    color:white;
+}
+a{
+    text-decoration: none ;
+}
